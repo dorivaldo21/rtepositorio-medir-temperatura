@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="jquery/dist/jquery.js"></script>
+
+    <style>
+      
+    .banner{
+        position:absolute;
+        background:url("img/a2.png");
+        text-align: center;
+       top: 100px;
+       width: 1300px;
+        height: 460px;
+        left: 27px;
+        font-size: 30px;
+    }
+    #atencion{
+        font-size: 19px;
+        color: white;
+    }
+
+    
+    </style>
+
+    <script>
+    
+    /* $(document).ready(function(){
+        document.getElementById("cerrar").addEventListener("click",cerrar_banner,false); 
+     });  */
+
+     function cerrar_banner() {
+         $(".banner").remove();
+     }
+     
+    
+    </script>
+  </head>
+
+<body>
+    
+ 
+    <div class="banner">
+        <p>!BIEN VENIDO(A) <script>document.write(nombre +" "+ apellido)</script>!</p>
+        <p>Le invito a disfrutar de mi locura, Perdon no de mi locura sino de
+             mi fascinante obra de arte que se llama Dr.STONE</p>
+        <P id="atencion">ATENCION: el Dr.STONE consiste en buscar el par de la 
+        foto que has visualizado en menos intentos posibles. <br> !INSTRUCCIONES! <br> 1* Debes hacer click en cargar. <br>2* Debes hacer click em limpiar,
+             y de alli puedes impenzar el Juego . <br> *Espero que lo difrutes* </P>
+            <input type="button" id="cerrar" value="Cerrar" onclick="cerrar_banner()"> </input>n
+        </div>
+        
+</body>
+</html>

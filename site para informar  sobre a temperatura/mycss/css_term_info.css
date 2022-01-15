@@ -1,0 +1,54 @@
+body{
+  
+
+}
+#section{
+    width: 900px;
+    margin: 50px auto 10px auto;
+    text-align: justify;
+   
+}
+#imagenes_section{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+   margin: 20px auto 50px auto;
+   padding: 60px auto 50px auto;
+}
+.imgs{
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 1);
+    margin: 50px auto 40px 35px;
+    width:290px;
+    height:300px;
+    border-radius: 10px;
+}
+#form_aside{
+    float: right;
+    width: 500px;
+    margin: 10px 300px auto auto;
+}
+#aside_bootom{
+    margin: auto auto auto 35px;
+}
+#footer{ 
+    margin: auto auto auto 100px; 
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#informacion_footer1{
+   
+    margin:0px;
+}
+#informacion_footer2{
+    padding-right: 110px;
+}
+#informacion_footer3{
+    padding-left: 100px;
+}
+#footer_booton{
+    margin: auto auto auto 25px;
+}
+#footer_bmedicion{
+    margin: auto auto auto 25px;
+}
+#footer_conosca{
+    margin: auto auto auto 25px;  
+}
